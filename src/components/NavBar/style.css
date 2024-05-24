@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+.nav-links {
+    list-style: none;    
+}
+
+nav ul li a{
+    color: #36454F;
+    text-decoration: none; 
+    padding: 1rem;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+nav ul li a:hover { 
+    color: darkgray;
+    text-decoration: underline;
+  } 
