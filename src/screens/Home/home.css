@@ -1,0 +1,45 @@
+#home {
+    height: 40rem;
+    padding-top: 1rem;
+}
+
+.pp {
+    width: 20rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container span {
+    color: #36454F;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 0.16em;
+    line-height: 1.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-items: center;
+}
+
+.hello-text {
+    color: red;
+    font-size: 1rem;
+}
+
+.name-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.role-text {
+    font-size: 1.2rem;
+}
