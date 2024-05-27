@@ -9,18 +9,18 @@ export function NavBar() {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const matches = useMediaQuery('(min-width: 768px)');
+    const minWidth = useMediaQuery('(min-width: 450px)');
 
     useEffect(() => {
         if (menuOpen) {
             setMenuOpen(false);
         }
-    }, [matches])
+    }, [minWidth])
 
     return (
         <nav>
-            <img src={logo} className="logo"></img>
-            <div className="menu" onClick={() => {
+            <img src={logo} className="navBar-logo"></img>
+            <div className="navBar-menu" onClick={() => {
                 setMenuOpen(!menuOpen)
             }
             }>
@@ -28,7 +28,7 @@ export function NavBar() {
                 <span></span>
                 <span></span>
             </div>
-            <ul className= {menuOpen ? 'menu-nav-links' : 'nav-links'}>
+            <ul className= {menuOpen ? 'navBar-menu--links' : 'navBar-links'}>
                 <li>
                     <Link to={'/about'}>About</Link>
                 </li>

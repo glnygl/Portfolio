@@ -8,16 +8,16 @@ nav ul {
     display: flex;
 }
 
-.nav-links {
+.navBar-links {
     list-style: none;  
     padding-right: 1rem;   
 }
 
-.menu-nav-links{
+.navBar-menu-links{
     list-style: none;   
 }
 
-.logo {
+.navBar-logo {
     width: 2.4rem;
     height: 2.4rem;
     padding-top: 1rem;   
@@ -37,7 +37,7 @@ nav ul li a:hover {
     border-bottom: 4px solid #B9D8E4;
   } 
 
- nav .menu {
+ nav .navBar-menu {
     display: none;
     position: absolute;
     top: 0.75rem;
@@ -49,14 +49,14 @@ nav ul li a:hover {
     padding-right: 0.45rem;
   }
 
-  nav .menu span{
+  nav .navBar-menu span{
     height: 0.4rem;
     background-color:#36454F;
     border-radius: 0.2rem;
   }
 
-  @media (max-width: 800px) {
-    nav .menu {
+  @media (max-width: 600px) {
+    nav .navBar-menu {
         display: flex;
       }
       nav {
@@ -73,7 +73,7 @@ nav ul li a:hover {
         margin-top: 0.5rem;
       }
 
-      .nav-links {
+      .navBar-links {
         display: none; 
     }
   }

@@ -1,0 +1,14 @@
+.experience-title {
+    color: #36454F;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.16em;
+    font-size: 1.6rem;
+}
+
+
+@media (max-width: 600px) {
+    .experience-title {
+        font-size: 1.2rem;
+    }
+}

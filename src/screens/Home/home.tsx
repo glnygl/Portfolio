@@ -5,12 +5,12 @@ export default function Home() {
     return (
         <div>
             <section id='home'>
-                <div className="container">
-                <img src={pp}className="pp"></img>
-                <div className="text-container">
-                    <span className="hello-text">Hello, I'm</span>
-                    <span className="name-text">Gülenay</span>
-                    <span className="role-text">Software Developer</span>
+                <div className="home-container">
+                <img src={pp}className="home-pp"></img>
+                <div className="home-text-container">
+                    <span className="home-hello-text">Hello, I'm</span>
+                    <span className="home-name-text">Gülenay</span>
+                    <span className="home-role-text">Software Developer</span>
                 </div>
                 </div>
             </section>

@@ -1,26 +1,29 @@
 #home {
     height: 40rem;
     padding-top: 1rem;
+    min-width: 12rem;
 }
 
-.pp {
-    width: 20rem;
+.home-pp {
+    width: 18rem;
+    min-width: 12rem;
 }
 
-.container {
+.home-container {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 8rem;
 }
 
-.text-container {
+.home-text-container {
     display: flex;
     flex-direction: column;
 }
 
-.text-container span {
+.home-text-container span {
     color: #36454F;
     font-family: Verdana, sans-serif;
     letter-spacing: 0.16em;
@@ -30,16 +33,39 @@
     align-items: center;
 }
 
-.hello-text {
-    color: red;
+.home-hello-text {
     font-size: 1rem;
 }
 
-.name-text {
+.home-name-text {
     font-size: 3rem;
     font-weight: bold;
 }
 
-.role-text {
+.home-role-text {
     font-size: 1.2rem;
 }
+
+@media (max-width: 600px) {
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home-hello-text {
+        font-size: 1rem;
+    }
+    
+    .home-name-text {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .home-role-text {
+        font-size: 1rem;
+    }  
+    
+    .home-text-container {
+        padding-top: 2em;
+    }
+  }
