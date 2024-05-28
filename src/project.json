@@ -3,8 +3,8 @@
         {
             "id": 1,
             "title": "Hopi",
-            "src": "",
-            "link": ""
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b1/a5/8a/b1a58a9a-806f-e1a0-4e89-b26738da11be/AppIcon-0-0-1x_U007emarketing-0-7-0-0-sRGB-85-220.png/460x0w.webp",
+            "link": "https://apps.apple.com/nl/app/hopi-al%C4%B1%C5%9Fveri%C5%9Fin-appi/id983886691"
         },
 
         {
@@ -17,15 +17,15 @@
         {
             "id": 3,
             "title": "Semtpati",
-            "src": "",
-            "link": ""
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/90/91/9a/90919a6f-5463-2805-15ed-b6c1ed6792f2/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.webp",
+            "link": "https://apps.apple.com/us/app/i-bb-semtpati/id1533659768"
         },
 
         {
             "id": 4,
             "title": "Migros",
-            "src": "",
-            "link": ""
+            "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/84/34/09843432-d419-eddf-394f-e957e7d21dea/AppIcon-1x_U007emarketing-0-7-0-85-220-0.png/460x0w.webp",
+            "link": "https://apps.apple.com/us/app/migros-market-yemek/id397585390"
         }
     ]
 }

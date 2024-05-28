@@ -1,6 +1,19 @@
+.projectItem-img{
+    width: 12rem;
+    height: 12rem;  
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.projectItem-appstore{
+    width: 10.8rem;
+    height: 2.8rem; 
+    padding-top: 0.8rem;
+}
+
 .projectItem-container{
-    width: 16rem;
-    height: 20rem;
+    width: 14.8rem;
+    height: 20.4rem;
     border-radius: 20px;
     border-color: #D3D3D3;
     border-width: 2px;
@@ -8,15 +21,16 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    padding-top: 2rem;
 }
 
 .projectItem-title{
     color: #36454F;
     font-family: Verdana, sans-serif;
+    font-weight: bold;
     letter-spacing: 0.16em;
     line-height: 1.8em;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    font-size: large;
 }
 
 @media (max-width: 600px) {

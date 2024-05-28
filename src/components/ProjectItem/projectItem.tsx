@@ -1,7 +1,7 @@
 import './projectItem.css'
-
-
-import logo from '../../assets/logo.png'
+import '../../helper.css'
+import appstore from '../../assets/appstore.png'
+import sodexoLogo from '../../assets/sodexo-plus.jpg'
 
 export interface ProjectModel {
     id: number
@@ -14,11 +14,31 @@ export type ProjectItemProps = {
     project: ProjectModel
 }
 
-export default function ProjectItem(props: ProjectItemProps){
+export default function ProjectItem(props: ProjectItemProps) {
+
+    const goToAppStore = () => {
+        window.open(props.project.link, '_blank');
+    }
+
+    const getStoreClassName = () => {
+        if (props.project.link.length == 0) {
+            return 'hidden'
+        }
+        return 'projectItem-appstore'
+    }
+
+    const projectLogo = () => {
+        if (props.project.src.length == 0) {
+            return sodexoLogo
+        }
+        return props.project.src
+    }
+
     return (
         <div className='projectItem-container'>
-            <img src={logo} className='projects-img'></img>
+            <img src={projectLogo()} className='projectItem-img'></img>
             <span className='projectItem-title'>{props.project.title}</span>
+            <img src={appstore} className={getStoreClassName()} onClick={goToAppStore}></img>
         </div>
     );
 }
