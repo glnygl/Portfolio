@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import './navbar.css'
+import './../../helper.css'
 import logo from '../../assets/logo.png'
 import { useEffect, useState } from "react";
 import { useMediaQuery } from 'usehooks-ts'

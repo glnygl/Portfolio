@@ -1,5 +1,4 @@
 import './projectItem.css'
-import '../../helper.css'
 import appstore from '../../assets/appstore.png'
 import sodexoLogo from '../../assets/sodexo-plus.jpg'
 
@@ -35,9 +34,9 @@ export default function ProjectItem(props: ProjectItemProps) {
     }
 
     return (
-        <div className='projectItem-container'>
+        <div className='projectItem-container border'>
             <img src={projectLogo()} className='projectItem-img'></img>
-            <span className='projectItem-title'>{props.project.title}</span>
+            <span className='projectItem-title font bold'>{props.project.title}</span>
             <img src={appstore} className={getStoreClassName()} onClick={goToAppStore}></img>
         </div>
     );

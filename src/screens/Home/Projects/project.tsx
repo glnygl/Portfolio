@@ -6,7 +6,7 @@ export default function Projects() {
 
     return (
         <section id='projects'>
-            <span className='projects-title'>Projects</span>
+            <span className='projects-title font bold'>Projects</span>
             <div className='projects-container'>
                 {projects.data.map((project, index) =>
                     <div key={index} className='projects-item-container'>

@@ -1,3 +1,19 @@
 .hidden {
     display: none;
 }
+
+.border {
+    border-radius: 20px;
+    border-color: #D3D3D3;
+    border-width: 2px;
+    border-style: solid;  
+}
+
+.font {
+    color: #36454F;
+    font-family: Verdana, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
