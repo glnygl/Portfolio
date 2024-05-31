@@ -34,9 +34,6 @@ export function NavBar() {
                     <Link to={'/about'}>About</Link>
                 </li>
                 <li>
-                    <Link to={'/experience'}>Experience</Link>
-                </li>
-                <li>
                     <Link to={'/projects'}>Projects</Link>
                 </li>
                 <li>

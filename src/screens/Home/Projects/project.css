@@ -1,3 +1,8 @@
+#projects{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .projects-title {
     letter-spacing: 0.16em;
     font-size: 1.6rem;
@@ -7,6 +12,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 2rem;
 }
 
 .projects-item-container {

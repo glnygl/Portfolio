@@ -4,7 +4,6 @@ import { Route, Routes } from 'react-router-dom';
 import { NavBar } from './components/NavBar/navbar';
 import HomeSection from '../src/screens/Home/home'
 import AboutSection from './screens/Home/About/about';
-import ExperienceSection from './screens/Home/Experience/experience';
 import ProjectsSection from './screens/Home/Projects/project';
 import ContactSection from './screens/Home/Contact/contact';
 
@@ -14,7 +13,6 @@ function App() {
       <NavBar />
       <HomeSection></HomeSection>
       <AboutSection></AboutSection>
-      <ExperienceSection></ExperienceSection>
       <ProjectsSection></ProjectsSection>
       <ContactSection></ContactSection>
       {/* <Routes>
